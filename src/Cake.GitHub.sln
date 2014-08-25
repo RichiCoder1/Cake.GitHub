@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30723.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cake.GitHub", "Cake.GitHub\Cake.GitHub.csproj", "{7FCCB9F1-FB26-4C73-B687-3689FA393700}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{AB0DF67A-D7DA-4F74-850A-E7ABA2171D62}"
+	ProjectSection(SolutionItems) = preProject
+		..\build.cake = ..\build.cake
+		..\build.cmd = ..\build.cmd
+		..\Cake.GitHub.nuspec = ..\Cake.GitHub.nuspec
+		..\MyGet.cmd = ..\MyGet.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Meta", "Meta", "{8BB93BED-D468-47B4-BFBF-A0B9CCB9AC20}"
+	ProjectSection(SolutionItems) = preProject
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+		..\LICENSE = ..\LICENSE
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FCCB9F1-FB26-4C73-B687-3689FA393700}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FCCB9F1-FB26-4C73-B687-3689FA393700}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FCCB9F1-FB26-4C73-B687-3689FA393700}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FCCB9F1-FB26-4C73-B687-3689FA393700}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
